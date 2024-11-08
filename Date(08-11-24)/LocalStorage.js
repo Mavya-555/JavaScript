@@ -10,7 +10,7 @@ btn.addEventListener("click", () => {
         displayData(data);
     }
     else{
-        let result = data.filter(obj => obj["category"] === value);
+        let result = data.filter(obj => obj["category"].toLowerCase() === value.toLowerCase());
         displayData(result);
     }
 })
