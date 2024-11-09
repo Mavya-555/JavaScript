@@ -1,12 +1,14 @@
 let container = document.getElementsByClassName("container")[0];
 let btn = document.querySelector("button");
-let input = document.querySelector("input");
+let input = document.getElementById("text");
 
 btn.addEventListener("click", () => {
     let value = input.value;
     let data = JSON.parse(localStorage.getItem("data")) || [];
     if(data.length === 0){
         alert("Data is not Available");
+    }
+    else if(value  === "all"){
         displayData(data);
     }
     else{
