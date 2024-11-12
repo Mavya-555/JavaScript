@@ -1,0 +1,39 @@
+{
+  "fruits": [
+    {
+      "id": "1",
+      "fruit": "apple",
+      "color": "red"
+    },
+    {
+      "id": "2",
+      "fruit": "grapes",
+      "color": "black"
+    },
+    {
+      "id": "3",
+      "fruit": "straberry",
+      "color": "pink"
+    },
+    {
+      "id": "4",
+      "fruit": "watermelon",
+      "color": "green"
+    },
+    {
+      "id": "5",
+      "name": "Banana",
+      "color": "yellow"
+    },
+    {
+      "id": "6",
+      "name": "guava",
+      "color": "green"
+    },
+    {
+      "id": "7",
+      "name": "custed apple",
+      "color": "green"
+    }
+  ]
+}
